@@ -10,6 +10,10 @@ Using the Bing Routes API to determine whether a  route contains congested traff
 Arduino code: bing_maps_arduino_serial2 
 Processing code: bing_maps_serial2
 
+Using the weather API:
+Arduino code: weather_serial
+Processing code: weather
+
 Using the NY Times API to determine how often an array of phrases are used on a particular day of week:
 Arduino code: nytimes_ff_arduino_serial
 Processing code: nytimes_facet_filter_serial

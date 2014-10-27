@@ -1,7 +1,7 @@
 import processing.serial.*;
 
 Serial myPort;
- JSONObject resourceFields;
+JSONObject resourceFields;
 int getTravelDurationTraffic;
 int getTravelDuration;
 int val;

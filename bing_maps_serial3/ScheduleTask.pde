@@ -5,7 +5,7 @@ JSONObject resourceFields;
 int getTravelDurationTraffic;
 int getTravelDuration;
 int val;
-String BingMapsAPIkey = "ApGP7VeWukEQ9dXLutAMw7kw0KKubu97Vrx55zwZLgT_O5G2WF9zPzWQOw4WsvCi";
+String BingMapsAPIkey = "API-KEY";
 String startLocation="Appleton%20Street%20Somerville%20MA%2002144";
 String endLocation="boston";
 String distanceUnit = "mi"; //km 

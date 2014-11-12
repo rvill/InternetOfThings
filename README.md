@@ -10,7 +10,7 @@ For testing purposes, the project uses LEDs to confirm succesful communication b
 Arduino code: bing_maps_arduino_serial2;
 Processing code: bing_maps_serial2
 
-**Using the weather API**
+**Using the Weather API**
 Arduino code: weather_serial;
 Processing code: weather
 

@@ -20,6 +20,5 @@ void loop() {
     Serial.print(c);
   }
   Serial.flush();
-
   delay(5000);
 }

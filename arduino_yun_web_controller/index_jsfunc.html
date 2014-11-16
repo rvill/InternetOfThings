@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  </head>
+
+
+     <body>
+        <div class="container">
+        <h2>4.S52's Arduino Web Controller </h2>
+        <p>These buttons control an LED on the Arduino Yun. </p>
+         
+        <p> 18.111.58.244 
+        <button id="ledOn_id" class="btn">LED ON</button>
+        <button id="ledOff_id" class="btn"> LED OFF </button>
+        </p>
+        <br>
+     
+
+<script type="text/javascript">
+
+document.getElementById("ledOn_id").onclick= function(){
+        $.ajax({
+            url: "http://18.111.54.244/arduino/digital/13/1",
+            jsonp: "callback",
+            dataType: "jsonp",
+            data:{},
+            success: function(response){
+               console.log(response);
+        }
+    });
+}
+
+
+document.getElementById("ledOff_id").onclick = function(){
+        $.ajax({
+            url: "http://18.111.54.244/arduino/digital/13/0",
+            jsonp: "callback",
+            dataType: "jsonp",
+            data:{},
+            success: function(response){
+               console.log(response);
+     }
+   });
+}
+
+         </script>
+     </body>
+</html>
+
+
+
